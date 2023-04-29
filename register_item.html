@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulldog Gems | Cadastro de item</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/bulldoggems_favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base/base.css">
+    <link rel="stylesheet" href="./assets/css/components/header.css">
+    <link rel="stylesheet" href="./assets/css/components/card.css">
+    <link rel="stylesheet" href="./assets/css/client_register.css">
+    <link rel="stylesheet" href="./assets/css/components/inputs.css">
+    <link rel="stylesheet" href="./assets/css/components/button.css">
+    <link rel="stylesheet" href="./assets/css/item_register.css">
+</head>
+<body>
+    <header class="cabecalho container">
+        <img src="./assets/img/bulldoggems_logo_simp.svg" alt="Logo Bulldog Gems" class="cabecalho__logo">
+        <nav>
+            <ul class="cabecalho__lista-navegacao">
+                <li class="cabecalho__link"><a href="#">Perfil</a></li>
+                <li class="cabecalho__link"><a href="#">Modo Campanha</a></li>
+                <li class="cabecalho__link"><a href="#">Battle Royale</a></li>
+                <li class="cabecalho__link"><a href="#">Configurações</a></li>
+                <li class="cabecalho__link"><a href="#">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container flex flex--centro flex--coluna">
+        <section class="cartao cadastro">
+            <h1 class="cartao__titulo">Cadastrar um novo item</h1>
+            <form action="./cadastro_produto_concluido.html" class="flex flex--coluna">
+                <div class="input-container">
+                    <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-tipo="name" required>
+                    <label class="input-label" for="nome">Nome</label>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div>
+                <div class="input-container cadastro__preco-container">
+                    <input name="preco" id="preco" class="input" type="text" placeholder="Preço" data-tipo="price" required>
+                    <label class="input-label" for="preco">Preço</label>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div>
+                <div class="input-container cadastro__descricao-container">
+                    <input class="input" name="descricao" id="descricao" placeholder="Descrição">
+                    <label class="input-label" for="descricao">Descrição</label>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div>
+                <button class="botao">Cadastrar item</button>
+            </form>
+        </section>
+    </main>
+    <script src="./js/app.js" type="module"></script>
+    <script src="https://github.com/codermarcos/simple-mask-money/releases/download/v3.0.0/simple-mask-money.js"></script>
+</body>
+</html>
