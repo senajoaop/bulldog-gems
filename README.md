@@ -14,8 +14,8 @@ Este é um projeto de cadastro de novo usuário em uma plataforma de jogo online
 - Utilização de máscaras, incluindo a máscara monetária.
 
 ## Como instalar e utilizar o pacote browser-sync do node.js
-1. Certifique-se de que você tem o node.js instalado na sua máquina;
-2. Abra o terminal e navegue até o diretório principal do projeto, 'bulldoggems';
+1. Certifique-se de que você tem o Node.js instalado na sua máquina;
+2. Abra o terminal e navegue até o diretório principal do projeto, 'bulldog-gems';
 3. Instale o pacote browser-sync através do seguinte comando: 
 ```
 npm install -g browser-sync
@@ -27,4 +27,4 @@ browser-sync start --server --directory --files "**/*"
 5. Aguarde até que a mensagem "Local: http://localhost:3000" apareça no terminal;
 6. Abra o seu navegador e acesse o endereço "http://localhost:3000" para visualizar o site.
 
-Observação: O comando do passo 4 deve ser executado dentro do diretório 'bulldoggems' para que o servidor funcione corretamente.
+Observação: O comando do passo 4 deve ser executado dentro do diretório 'bulldog-gems' para que o servidor funcione corretamente.
